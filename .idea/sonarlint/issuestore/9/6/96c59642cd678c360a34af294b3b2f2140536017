@@ -1,13 +1,11 @@
 
-_
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8äÔ¡¾†2
-V
-java:S6856#"4Bind path variable "idCourse" to a method parameter.(øÒ‚¨üÿÿÿÿ8åÔ¡¾†2
-C
-java:S1452"&Remove usage of generic wildcard type.(‰Š8êÔ¡¾†2
-H
-java:S1452"&Remove usage of generic wildcard type.(Üõ¶¶ûÿÿÿÿ8ëÔ¡¾†2
-C
-java:S1452$"&Remove usage of generic wildcard type.(””×ë8ìÔ¡¾†2
->
-java:S1116&"Remove this empty statement.(ôŸìúÿÿÿÿ8íÔ¡¾†2
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8‡–“Á†2J$54470afd-79dc-47bf-a8c0-96529a52da8f
+i
+java:S1452"&Remove usage of generic wildcard type.(‰Š8–“Á†2J$9b34ddde-9177-480f-acbc-c7b67e4a2237
+n
+java:S1452"&Remove usage of generic wildcard type.(Üõ¶¶ûÿÿÿÿ8’–“Á†2J$a02dc8c0-aa30-40de-ba29-dfc44f92926f
+n
+java:S1452$"&Remove usage of generic wildcard type.(Õ¡£áÿÿÿÿÿ8—–“Á†2J$8caceb85-fc31-4602-87a2-814d92309313
+d
+java:S1116&"Remove this empty statement.(ôŸìúÿÿÿÿ8™–“Á†2J$1e5ad888-464c-4562-beb6-871ec48d297a

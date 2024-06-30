@@ -40,7 +40,7 @@ public class CourseServiceImpl implements IcourseService{
         Course course = courseRepository.findById(idCourse).orElse(new Course());
 
         //Obtener los estudiantes del curso
-        List<StudentDTO> studentDTOList = studentClient.findAllStudentByCourse(idCourse);
+        List<StudentDTO> studentDTOList = studentClient.findAllByCourseId(idCourse);
 
         return StudentByCourseResponse.builder()
                 .courseName(course.getName())

@@ -32,9 +32,9 @@ public class StudentController {
 
     //Comunicación Restcon Modulo: Course
 
-    @GetMapping(("/search-ny-course/{idCourse}"))
-    public ResponseEntity<?> findByIdCourse(Long idCourse){
-        return ResponseEntity.ok(studentService.findByIdCourse(idCourse));
+    @GetMapping(("/search-by-course/{courseId}"))
+    public ResponseEntity<?> findByCourseId(@PathVariable Long courseId){
+        return ResponseEntity.ok(studentService.findAllByCourseId(courseId));
     };
 
 }

@@ -23,6 +23,7 @@ public class Student {
     private String lastname;
 
     private String email;
+
     @Column(name = "course_id")
     private Long courseId;
 }

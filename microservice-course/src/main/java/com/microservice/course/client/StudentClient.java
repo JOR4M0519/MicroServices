@@ -9,6 +9,6 @@ import java.util.List;
 
 @FeignClient(name="msvc-student", url = "http://localhost:8090/api/student/")
 public interface StudentClient {
-    @GetMapping("/search-ny-course/{idCourse}")
-    List<StudentDTO> findAllStudentByCourse(@PathVariable Long idCourse);
+    @GetMapping("/search-by-course/{courseId}")
+    List<StudentDTO> findAllByCourseId(@PathVariable Long courseId);
 }
