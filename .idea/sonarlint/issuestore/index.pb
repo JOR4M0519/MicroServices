@@ -43,3 +43,9 @@ Vmicroservice-course/src/main/java/com/microservice/course/services/IcourseServi
 Ymicroservice-course/src/main/java/com/microservice/course/services/CourseServiceImpl.java,c\7\c77dae0623db30fb92fddc25cd98c979839dfc7a
 Š
 Zmicroservice-course/src/main/java/com/microservice/course/controller/CourseController.java,7\5\75b1c96e26f5cfb912f3419dce374d9d3aedded5
+ƒ
+Smicroservice-course/src/main/java/com/microservice/course/client/StudentClient.java,9\b\9be88b7d9838c398a51ac6bd1da5f81cfa6b0ce3
+}
+Mmicroservice-course/src/main/java/com/microservice/course/dto/StudentDTO.java,c\d\cdcc9b1edb3551d659d30fb470c0e41cb23f1df9
+”
+dmicroservice-course/src/main/java/com/microservice/course/http/response/StudentByCourseResponse.java,3\8\38a6c4278b222748f4d9f76fb2577f25fee6927d

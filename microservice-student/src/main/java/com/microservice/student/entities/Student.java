@@ -19,8 +19,9 @@ public class Student {
     private long id;
     private String name;
 
-    @Column(name = "lastname")
+    @Column(name = "last_name")
     private String lastname;
+
     private String email;
     @Column(name = "course_id")
     private Long courseId;
