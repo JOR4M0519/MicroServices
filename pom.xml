@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <!--Se declara el proyecto como un hijo del padre del principal como springboot-->
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>3.2.5</version>
+  </parent>
+
+  <groupId>com.mycompany.app</groupId>
+  <artifactId>MicroServices</artifactId>
+  <version>1.0-SNAPSHOT</version>
+
+  <name>MicroServices</name>
+  <packaging>pom</packaging>
+  <!--Se interpreta como un contenedor, no como un proyecto que se ejecuta-->
+
+  <!-- FIXME change it to the project's website -->
+  <url>http://www.example.com</url>
+
+  <modules>
+    <module>microservice-gateway</module>
+    <module>microservice-eureka</module>
+    <module>microservice-config</module>
+    <module>microservice-student</module>
+    <module>microservice-course</module>
+  </modules>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
+  </properties>
+
+  <!--Las dependencias agregadas las heredaran los microservicios-->
+  <dependencies>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.22</version>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-buildpack-platform</artifactId>
+        <version>3.2.5</version>
+      </plugin>
+    </plugins>
+  </build>
+</project>
